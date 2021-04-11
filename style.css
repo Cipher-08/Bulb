@@ -1,0 +1,45 @@
+ * {
+     background-color: rgb(247, 244, 244)
+ }
+ 
+ body {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+ 
+ .button1,
+ .button2 {
+     position: relative;
+     top: 400px;
+     left: -60px;
+     margin: 20px;
+     /* background-color: rgb(5, 5, 5);
+            color: white; */
+     border: 0px solid white;
+     height: 40px;
+     width: 80px;
+     border-radius: 10px;
+     transition: 0.5s;
+ }
+ 
+ .button1 {
+     background-color: rgb(116, 240, 116);
+ }
+ 
+ .button2 {
+     background-color: rgb(216, 107, 107);
+ }
+ 
+ .button1:hover,
+ .button2:hover {
+     background-color: white;
+     color: black;
+ }
+ 
+ .img-responsive {
+     position: relative;
+     top: 200px;
+     right: -100px;
+     height: 150px;
+ }
